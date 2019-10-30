@@ -15,7 +15,7 @@ def add_student(name, grade)
   if @roster.include?(grade) == false
     @roster[grade] = []
   end
-@roster[] << name
+@roster[grade] << name
 end
 
 def grade
