@@ -23,9 +23,8 @@ def grade(grade)
 end
 
 def sort 
-  @roster.each {|grade, name| @roster[grade].sort
+  @roster.each {|grade, name| @roster[grade].sort}
   
-  .sort
 end
 end
 
