@@ -14,4 +14,13 @@ def add_student(name, grade)
 @grade = grade
 roster 
 end
+
+
+def grade
+  
+end
+
+def sort 
+  
+end
 end
