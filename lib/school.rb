@@ -9,12 +9,16 @@ class School
   roster = {}
 end
 
-def add_student(name, grade)
+def initialize(name, grade)
 @name = name
 @grade = grade
 roster 
 end
 
+def add_student(name, grade)
+@name
+@grade
+end
 
 def grade
   
